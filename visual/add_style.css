@@ -1,0 +1,115 @@
+.d_block_div {
+  font-size: 12px;
+  font-family: verdana;
+  background: url(bolt_1.png) no-repeat top left, url(bolt.png) no-repeat top right,
+   url(bolt.png) no-repeat bottom left, url(bolt_1.png) no-repeat bottom right,
+   url(images/bg.png);
+  border: 1px solid #000;
+  margin: 2px;
+  clear: both;
+}
+
+
+.history_table{
+  width: 100%;
+}
+
+tr.header {
+  font-weight: bold;
+  text-align: center;
+  background: #FD9E4E;;
+}
+
+.d_block_div td {
+  padding: 3px;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+tr.first {
+  background: #fee;
+}
+
+tr.second {
+  background: #eee;
+}
+
+.d_block_div a {
+  color: rgb(54, 22, 219);
+}
+
+.history_h_id{
+  width: 50px;
+}
+
+.history_h_atk,
+.history_h_def{
+  width: 150px;
+  text-align: center;
+  
+}
+
+.history_td_name{
+  vertical-align: top;
+}
+
+.player_inventory {
+  background: url(bolt_1.png) no-repeat top right,
+ url(bolt_1.png) no-repeat bottom left, url(bolt.png) no-repeat bottom right,
+ url(images/bg.png);
+  border-radius: 0 0 3px 3px;
+  line-height: 12px;
+  border: 1px solid #777;
+  width: 262px;
+  padding: 12px 5px;
+}
+
+.player_inventory td {
+  padding: 3px;
+  border: 1px solid rgba(0,0,0,0.2);
+  background: #fff;
+  width: 70px;
+  height: 72px;
+}
+
+.snar_title {
+  background: url(bolt_1.png) no-repeat left 2px,
+   url(bolt.png) no-repeat right 2px, 
+   url(images/bg.png);
+  margin-bottom: -2px;
+  border: 1px solid black;
+  border-bottom: none;
+  display: inline-block;
+  padding: 1px 14px 2px 16px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 3px 3px 0 0;
+  line-height: 12px;
+  margin-top: 5px;
+  border: 1px solid #777;
+  border-bottom: none;
+  border-left: 1px solid #777;
+}
+
+td.chuchelo {
+  background: url("images/chuchelo.png") no-repeat center center;
+}
+
+td.dospeh {
+  background: url("images/dospeh.png") no-repeat center center;
+}
+
+td.hranitel {
+  background: url("images/hranitel.png") no-repeat center center;
+}
+
+td.oruzhie {
+  background: url("images/oruzhie.png") no-repeat center center;
+}
+
+td.roskosh {
+  background: url("images/roskosh.png") no-repeat center center;
+}
+
+td.dokumenty {
+  background: url("images/dokumenty.png") no-repeat center center;
+}
